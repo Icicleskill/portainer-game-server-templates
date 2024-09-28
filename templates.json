@@ -6,7 +6,7 @@
       "title": "LGSM Counter Strike 2",
       "name": "LGSM-CS2",
       "note": "LinuxGSM CS2",
-      "description": "CS2 Dedicated server based on LinuxGSM Docker",
+      "description": "CS2 Dedicated server container based on LinuxGSM Docker",
       "categories": ["Game Servers","Containers"],
       "platform": "linux",
       "network": "host",
@@ -39,6 +39,23 @@
         }
       ],
       "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": [
+        "Game Servers",
+        "Containers"
+      ],
+      "description": "CS2 Dedicated server stack based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
+      "name": "LGSM-CS2",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/cs2.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Counter Strike 2",
+      "type": 3,
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
