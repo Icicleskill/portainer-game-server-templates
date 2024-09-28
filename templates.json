@@ -10,7 +10,7 @@
         "categories": ["Game Servers"],
         "platform": "linux",
         "network": "host",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png",
+        "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
         "image": "gameservermanagers/gameserver:cs2",
         "env": [
           {
