@@ -9,7 +9,7 @@
       "description": "TEST desc",
       "categories": ["Game Servers"],
       "platform": "linux",
-      "network_mode": "host",
+      "network": "host",
       "logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png",
       "image": "gameservermanagers/gameserver:cs2",
       "env": [
@@ -41,6 +41,5 @@
       "restart_policy": "unless-stopped",
       "maintainer": " https://github.com/icicleskill"
     },
-
   ]
 }
