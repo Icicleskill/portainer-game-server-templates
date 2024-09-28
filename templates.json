@@ -7,7 +7,7 @@
       "name": "LGSM-CS2",
       "note": "LinuxGSM CS2",
       "description": "CS2 Dedicated server based on LinuxGSM Docker",
-      "categories": ["Game Servers"],
+      "categories": ["Game Servers","Containers"],
       "platform": "linux",
       "network": "host",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
