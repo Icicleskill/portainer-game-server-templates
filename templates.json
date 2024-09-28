@@ -40,6 +40,6 @@
       ],
       "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
-    }
+    },
   ]
 }
