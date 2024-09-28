@@ -1,0 +1,21 @@
+services:
+  lgsm-cs2-match:
+    image: gameservermanagers/gameserver:cs2
+    container_name: lgsm-cs2
+    hostname: lgsm-cs2
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - /path/to/host:/data
+    labels:
+      - homepage.group=Servers
+      - homepage.name=CS2 Match
+      - homepage.icon=steam.png
+      - homepage.href=steam://connect/10.112.0.40:27015
+      - homepage.widget.type=gamedig
+      - homepage.widget.serverType=counterstrike2
+      - homepage.widget.url=udp://10.112.0.40:27015
+      - homepage.widget.fields=["status", "map", "currentPlayers", "ping"]
+      - homepage.server=my-docker
+      - homepage.container=lgsm-cs2-match
+      - homepage.showStats=true
