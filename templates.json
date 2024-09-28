@@ -4,7 +4,7 @@
     {
       "type": 1,
       "title": "LGSM Counter Strike 2",
-      "name": "LGSM Counter Strike 2",
+      "name": "LGSM-CS2",
       "note": "LinuxGSM CS2",
       "description": "CS2 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Servers"],
@@ -24,7 +24,7 @@
     {
       "type": 1,
       "title": "LGSM Team Fortress 2",
-      "name": "LGSM Team Fortress 2",
+      "name": "LGSM-TF2",
       "note": "LinuxGSM TF2",
       "description": "TF2 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Servers"],
