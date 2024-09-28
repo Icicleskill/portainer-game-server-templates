@@ -1,37 +1,42 @@
-{
-  "version": "2",
-  "templates": [
     {
+      "type": 1,
+      "title": "LGSM Counter Strike 2",
+      "name": "Apprise-api",
+      "note": "Based on LinuxGSM docker image",
+      "description": "TEST desc",
       "categories": [
-        "Authenticationserver"
+        "Game Servers"
       ],
-      "description": "Authentik is an open-source Identity Provider focused on flexibility and versatility",
+      "platform": "linux",
+	  "network_mode": "host"''
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/4/49/Counter-Strike_2_%28Icon%29.png",
+      "image": "gameservermanagers/gameserver:cs2",
       "env": [
         {
-          "default": "1000",
+          "name": "PUID",
           "label": "PUID",
-          "name": "PUID"
-        },
-        {
           "default": "1000",
-          "label": "PGID",
-          "name": "PGID"
+          "description": "for UserID"
         },
         {
-          "label": "PORT",
-          "name": "PORT"
+          "name": "PGID",
+          "label": "PGID",
+          "default": "1000",
+          "description": "for GroupID"
+        },
+        {
+          "name": "TZ",
+          "label": "TZ",
+          "default": "America/Chicago",
+          "description": "Specify a timezone to use for example Europe/Amsterdam"
         }
       ],
-      "logo": "https://raw.githubusercontent.com/mycroftwilde/portainer_templates/master/Images/goauthentik.png",
-      "name": "Authentik",
-      "platform": "linux",
-      "repository": {
-        "stackfile": "Template/Stack/authentik.yml",
-        "url": "https://github.com/xneo1/portainer_templates"
-      },
-      "title": "Authentik",
-      "type": 3,
-      "maintainer": " https://github.com/mycroftwilde/portainer_templates/"
-    }
-  ]
-}
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": ""
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": " https://github.com/icicleskill"
+    },
