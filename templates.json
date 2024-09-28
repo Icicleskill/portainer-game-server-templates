@@ -20,26 +20,6 @@
       ],
       "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
-    },
-    {
-      "type": 1,
-      "title": "LGSM Counter Strike 3",
-      "name": "LGSM Counter Strike 23",
-      "note": "LinuxGSM CS2",
-      "description": "CS2 Dedicated server based on LinuxGSM Docker",
-      "categories": ["Game Servers"],
-      "platform": "linux",
-      "network": "host",
-      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
-      "image": "gameservermanagers/gameserver:cs2",
-      "volumes": [
-        {
-          "container": "/data",
-          "bind": "/path/to/cs2server"
-        }
-      ],
-      "restart_policy": "unless-stopped",
-      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
-    },
+    }
   ]
 }
