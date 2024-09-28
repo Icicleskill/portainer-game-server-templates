@@ -20,6 +20,26 @@
       ],
       "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Team Fortress 2",
+      "name": "LGSM Team Fortress 2",
+      "note": "LinuxGSM TF2",
+      "description": "TF2 Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Servers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
+      "image": "gameservermanagers/gameserver:tf2",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/tf2server"
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
 }
