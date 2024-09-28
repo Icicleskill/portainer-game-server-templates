@@ -20,7 +20,7 @@
       ],
       "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
-    }
+    },
     {
       "type": 1,
       "title": "LGSM Counter Strike 2",
