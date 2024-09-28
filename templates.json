@@ -1,7 +1,7 @@
     {
       "type": 1,
       "title": "LGSM Counter Strike 2",
-      "name": "Apprise-api",
+      "name": "LGSM Counter Strike 2",
       "note": "Based on LinuxGSM docker image",
       "description": "TEST desc",
       "categories": [
