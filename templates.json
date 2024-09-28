@@ -5,8 +5,8 @@
         "type": 1,
         "title": "LGSM Counter Strike 2",
         "name": "LGSM Counter Strike 2",
-        "note": "Based on LinuxGSM docker image",
-        "description": "TEST desc",
+        "note": "LinuxGSM CS2",
+        "description": "CS2 Dedicated server based on LinuxGSM Docker",
         "categories": ["Game Servers"],
         "platform": "linux",
         "network": "host",
@@ -14,32 +14,15 @@
         "image": "gameservermanagers/gameserver:cs2",
         "env": [
           {
-            "name": "PUID",
-            "label": "PUID",
-            "default": "1000",
-            "description": "for UserID"
-          },
-          {
-            "name": "PGID",
-            "label": "PGID",
-            "default": "1000",
-            "description": "for GroupID"
-          },
-          {
-            "name": "TZ",
-            "label": "TZ",
-            "default": "America/Chicago",
-            "description": "Specify a timezone to use for example Europe/Amsterdam"
-          }
         ],
         "volumes": [
           {
             "container": "/data",
-            "bind": "/"
+            "bind": "/path/to/cs2server"
           }
         ],
         "restart_policy": "unless-stopped",
-        "maintainer": " https://github.com/icicleskill"
+        "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
       }
     ]
   }
