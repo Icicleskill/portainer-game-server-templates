@@ -9,7 +9,7 @@ services:
       - /path/to/host:/data
     labels:
       - homepage.group=Servers
-      - homepage.name=CS2 Match
+      - homepage.name={{SERVERNAME}}
       - homepage.icon=steam.png
       - homepage.href=steam://connect/10.112.0.40:27015
       - homepage.widget.type=gamedig
