@@ -23,8 +23,8 @@
     },
     {
       "type": 1,
-      "title": "LGSM Counter Strike 2",
-      "name": "LGSM Counter Strike 2",
+      "title": "LGSM Counter Strike 3",
+      "name": "LGSM Counter Strike 23",
       "note": "LinuxGSM CS2",
       "description": "CS2 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Servers"],
