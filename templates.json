@@ -5,7 +5,7 @@
       "type": 1,
       "title": "LGSM Counter Strike 2",
       "name": "LGSM-CS2",
-      "note": "LinuxGSM CS22",
+      "note": "LinuxGSM CS2",
       "description": "CS2 Dedicated server container based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
       "platform": "linux",
@@ -78,7 +78,7 @@
       "categories": ["Game Server Containers"],
       "platform": "linux",
       "network": "host",
-      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cod4.webp",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cod4.png",
       "image": "gameservermanagers/gameserver:cod4",
       "volumes": [
         {
