@@ -1,0 +1,9 @@
+services:
+  lgsm-cs16-stack:
+    image: gameservermanagers/gameserver:cs
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:
