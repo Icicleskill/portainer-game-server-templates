@@ -22,6 +22,20 @@
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     },
     {
+      "categories": ["Game Server Stacks"],
+      "description": "CS2 Dedicated server stack based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
+      "name": "lgsm-cs2-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/cs2.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Counter Strike 2",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
       "type": 1,
       "title": "LGSM Team Fortress 2",
       "name": "LGSM-TF2",
@@ -43,20 +57,6 @@
     },
     {
       "categories": ["Game Server Stacks"],
-      "description": "CS2 Dedicated server stack based on LinuxGSM Docker",
-      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
-      "name": "lgsm-cs2-stack",
-      "platform": "linux",
-      "repository": {
-        "stackfile": "stacks/cs2.yml",
-        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
-      },
-      "title": "LGSM Counter Strike 2",
-      "type": 3,
-      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
-    },
-    {
-      "categories": ["Game Server Stacks"],
       "description": "TF2 Dedicated server stack based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/tf2.webp",
       "name": "lgsm-tf2-stack",
@@ -67,6 +67,26 @@
       },
       "title": "LGSM Team Fortress 2",
       "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Call of Duty 4 MW",
+      "name": "LGSM-COD4",
+      "note": "LinuxGSM COD4",
+      "description": "COD4 Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Server Containers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cod4.webp",
+      "image": "gameservermanagers/gameserver:cod4",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/cod4server"
+        }
+      ],
+      "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
