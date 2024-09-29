@@ -88,6 +88,54 @@
       ],
       "restart_policy": "unless-stopped",
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": ["Game Server Stacks"],
+      "description": "COD4 Dedicated server stack based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cod4.png",
+      "name": "lgsm-cod4-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/cod4.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Call of Duty 4 MW",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Counter Strike 1.6",
+      "name": "LGSM-CS16",
+      "note": "LinuxGSM CS16",
+      "description": "CS 1.6 Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Server Containers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs16.png",
+      "image": "gameservermanagers/gameserver:cs",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/cs16server"
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": ["Game Server Stacks"],
+      "description": "CS 1.6 Dedicated server based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs16.png",
+      "name": "lgsm-cs16-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/cs16.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Counter Strike 1.6",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
 }
