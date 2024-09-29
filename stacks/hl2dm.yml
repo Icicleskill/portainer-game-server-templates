@@ -1,0 +1,9 @@
+services:
+  lgsm-hl2dm-stack:
+    image: gameservermanagers/gameserver:hl2dm
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:
