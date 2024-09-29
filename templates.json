@@ -261,7 +261,7 @@
     },
     {
       "categories": ["Game Server Stacks"],
-      "title": "LGSM Minecraft Bedrock",
+      "description": "MCB Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/mcb.png",
       "name": "lgsm-mcb-stack",
       "platform": "linux",
@@ -270,6 +270,40 @@
         "url": "https://github.com/Icicleskill/portainer-game-server-templates"
       },
       "title": "LGSM Minecraft Bedrock",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Rust",
+      "name": "LGSM-RUST",
+      "note": "LinuxGSM Rust",
+      "description": "Rust Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Server Containers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/rust.png",
+      "image": "gameservermanagers/gameserver:rust",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/rustserver"
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": ["Game Server Stacks"],
+      "description": "Rust Dedicated server based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/rust.png",
+      "name": "lgsm-rust-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/rust.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Rust",
       "type": 3,
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
