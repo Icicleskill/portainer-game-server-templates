@@ -4,6 +4,6 @@ services:
     restart: unless-stopped
     network_mode: host
     volumes:
-      - lgsm-cs2-stack:/data
+      - serverfiles:/data
 volumes:
-  lgsm-cs2-stack:
+  serverfiles:
