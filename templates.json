@@ -5,7 +5,7 @@
       "type": 1,
       "title": "LGSM Counter Strike 2",
       "name": "LGSM-CS2",
-      "note": "LinuxGSM CS2",
+      "note": "LinuxGSM CS22",
       "description": "CS2 Dedicated server container based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
       "platform": "linux",
