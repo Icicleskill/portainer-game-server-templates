@@ -1,0 +1,9 @@
+services:
+  lgsm-tf2-stack:
+    image: gameservermanagers/gameserver:tf2
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:
