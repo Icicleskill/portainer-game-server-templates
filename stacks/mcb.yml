@@ -1,0 +1,9 @@
+services:
+  lgsm-mcb-stack:
+    image: gameservermanagers/gameserver:mcb
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:

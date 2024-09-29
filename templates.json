@@ -238,6 +238,40 @@
       "title": "LGSM Left 4 Dead 2",
       "type": 3,
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Minecraft Bedrock",
+      "name": "LGSM-MCB",
+      "note": "LinuxGSM MCB",
+      "description": "MCB Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Server Containers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/mcb.png",
+      "image": "gameservermanagers/gameserver:mcb",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/mcbserver"
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": ["Game Server Stacks"],
+      "title": "LGSM Minecraft Bedrock",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/mcb.png",
+      "name": "lgsm-mcb-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/mcb.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Minecraft Bedrock",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
 }
