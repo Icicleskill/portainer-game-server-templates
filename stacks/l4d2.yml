@@ -1,0 +1,9 @@
+services:
+  lgsm-l4d2-stack:
+    image: gameservermanagers/gameserver:l4d2
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:

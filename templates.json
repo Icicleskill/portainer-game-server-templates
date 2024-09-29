@@ -204,6 +204,40 @@
       "title": "LGSM Garry's Mod",
       "type": 3,
       "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "type": 1,
+      "title": "LGSM Left 4 Dead 2",
+      "name": "LGSM-L4D2",
+      "note": "LinuxGSM L4D2",
+      "description": "L4D2 Dedicated server based on LinuxGSM Docker",
+      "categories": ["Game Server Containers"],
+      "platform": "linux",
+      "network": "host",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/l4d2.png",
+      "image": "gameservermanagers/gameserver:l4d2",
+      "volumes": [
+        {
+          "container": "/data",
+          "bind": "/path/to/l4d2server"
+        }
+      ],
+      "restart_policy": "unless-stopped",
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
+    },
+    {
+      "categories": ["Game Server Stacks"],
+      "description": "L4D2 Dedicated server based on LinuxGSM Docker",
+      "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/l4d2.png",
+      "name": "lgsm-l4d2-stack",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stacks/l4d2.yml",
+        "url": "https://github.com/Icicleskill/portainer-game-server-templates"
+      },
+      "title": "LGSM Left 4 Dead 2",
+      "type": 3,
+      "maintainer": "https://github.com/Icicleskill/portainer-game-server-templates"
     }
   ]
 }
