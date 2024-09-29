@@ -1,0 +1,9 @@
+services:
+  lgsm-gmod-stack:
+    image: gameservermanagers/gameserver:gmod
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - serverfiles:/data
+volumes:
+  serverfiles:
