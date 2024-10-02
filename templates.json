@@ -25,7 +25,7 @@
       "categories": ["Game Server Stacks"],
       "description": "CS2 Dedicated server stack based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs2.webp",
-      "name": "lgsm-cs2-stack",
+      "name": "cs2",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/cs2.yml",
@@ -59,7 +59,7 @@
       "categories": ["Game Server Stacks"],
       "description": "TF2 Dedicated server stack based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/tf2.webp",
-      "name": "lgsm-tf2-stack",
+      "name": "tf2",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/tf2.yml",
@@ -93,7 +93,7 @@
       "categories": ["Game Server Stacks"],
       "description": "COD4 Dedicated server stack based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cod4.png",
-      "name": "lgsm-cod4-stack",
+      "name": "cod4",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/cod4.yml",
@@ -127,7 +127,7 @@
       "categories": ["Game Server Stacks"],
       "description": "CS 1.6 Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/cs16.png",
-      "name": "lgsm-cs16-stack",
+      "name": "cs16",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/cs16.yml",
@@ -161,7 +161,7 @@
       "categories": ["Game Server Stacks"],
       "description": "HL2DM Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/hl2dm.png",
-      "name": "lgsm-hl2dm-stack",
+      "name": "hl2dm",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/hl2dm.yml",
@@ -195,7 +195,7 @@
       "categories": ["Game Server Stacks"],
       "description": "GMOD Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/gmod.png",
-      "name": "lgsm-gmod-stack",
+      "name": "gmod",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/gmod.yml",
@@ -229,7 +229,7 @@
       "categories": ["Game Server Stacks"],
       "description": "L4D2 Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/l4d2.png",
-      "name": "lgsm-l4d2-stack",
+      "name": "l4d2",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/l4d2.yml",
@@ -263,7 +263,7 @@
       "categories": ["Game Server Stacks"],
       "description": "MCB Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/mcb.png",
-      "name": "lgsm-mcb-stack",
+      "name": "minecraftbedrock",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/mcb.yml",
@@ -297,7 +297,7 @@
       "categories": ["Game Server Stacks"],
       "description": "Rust Dedicated server based on LinuxGSM Docker",
       "logo": "https://raw.githubusercontent.com/Icicleskill/portainer-game-server-templates/refs/heads/main/icons/rust.png",
-      "name": "lgsm-rust-stack",
+      "name": "rust",
       "platform": "linux",
       "repository": {
         "stackfile": "stacks/rust.yml",
@@ -330,7 +330,7 @@
     {
       "type": 3,
       "title": "LGSM Satisfactory",
-      "name": "lgsm-sf",
+      "name": "satisfactory",
       "description": "Satisfactory Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Stacks"],
       "platform": "linux",
