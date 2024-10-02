@@ -1,5 +1,5 @@
 services:
-  lgsm-tf2-stack:
+  lgsm:
     image: gameservermanagers/gameserver:tf2
     restart: unless-stopped
     network_mode: host

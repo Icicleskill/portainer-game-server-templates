@@ -1,5 +1,5 @@
 services:
-  lgsm-cs2-stack:
+  lgsm:
     image: gameservermanagers/gameserver:cs2
     restart: unless-stopped
     network_mode: host

@@ -1,5 +1,5 @@
 services:
-  lgsm-rust-stack:
+  lgsm:
     image: gameservermanagers/gameserver:rust
     restart: unless-stopped
     network_mode: host

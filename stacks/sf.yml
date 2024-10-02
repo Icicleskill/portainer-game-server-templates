@@ -1,5 +1,5 @@
 services:
-  lgsm-sf-stack:
+  lgsm:
     image: gameservermanagers/gameserver:sf
     restart: unless-stopped
     network_mode: host

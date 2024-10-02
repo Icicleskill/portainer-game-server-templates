@@ -1,5 +1,5 @@
 services:
-  lgsm-l4d2-stack:
+  lgsm:
     image: gameservermanagers/gameserver:l4d2
     restart: unless-stopped
     network_mode: host

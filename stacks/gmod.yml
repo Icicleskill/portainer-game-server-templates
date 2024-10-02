@@ -1,5 +1,5 @@
 services:
-  lgsm-gmod-stack:
+  lgsm:
     image: gameservermanagers/gameserver:gmod
     restart: unless-stopped
     network_mode: host

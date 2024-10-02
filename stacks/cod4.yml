@@ -1,5 +1,5 @@
 services:
-  lgsm-cod4-stack:
+  lgsm:
     image: gameservermanagers/gameserver:cod4
     restart: unless-stopped
     network_mode: host

@@ -1,5 +1,5 @@
 services:
-  lgsm-hl2dm-stack:
+  lgsm:
     image: gameservermanagers/gameserver:hl2dm
     restart: unless-stopped
     network_mode: host

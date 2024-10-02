@@ -1,5 +1,5 @@
 services:
-  lgsm-mcb-stack:
+  lgsm:
     image: gameservermanagers/gameserver:mcb
     restart: unless-stopped
     network_mode: host
