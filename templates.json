@@ -4,7 +4,7 @@
     {
       "type": 1,
       "title": "LGSM Counter Strike 2",
-      "name": "LGSM-CS2",
+      "name": "cs2",
       "note": "LinuxGSM CS2",
       "description": "CS2 Dedicated server container based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -38,7 +38,7 @@
     {
       "type": 1,
       "title": "LGSM Team Fortress 2",
-      "name": "LGSM-TF2",
+      "name": "tf2",
       "note": "LinuxGSM TF2",
       "description": "TF2 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -72,7 +72,7 @@
     {
       "type": 1,
       "title": "LGSM Call of Duty 4 MW",
-      "name": "LGSM-COD4",
+      "name": "cod4",
       "note": "LinuxGSM COD4",
       "description": "COD4 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -106,7 +106,7 @@
     {
       "type": 1,
       "title": "LGSM Counter Strike 1.6",
-      "name": "LGSM-CS16",
+      "name": "cs16",
       "note": "LinuxGSM CS16",
       "description": "CS 1.6 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -140,7 +140,7 @@
     {
       "type": 1,
       "title": "LGSM Half-Life 2 Deathmatch",
-      "name": "LGSM-HL2DM",
+      "name": "hl2dm",
       "note": "LinuxGSM HL2DM",
       "description": "HL2DM Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -174,7 +174,7 @@
     {
       "type": 1,
       "title": "LGSM Garry's Mod",
-      "name": "LGSM-GMOD",
+      "name": "gmod",
       "note": "LinuxGSM GMOD",
       "description": "GMOD Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -208,7 +208,7 @@
     {
       "type": 1,
       "title": "LGSM Left 4 Dead 2",
-      "name": "LGSM-L4D2",
+      "name": "l4d2",
       "note": "LinuxGSM L4D2",
       "description": "L4D2 Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -242,7 +242,7 @@
     {
       "type": 1,
       "title": "LGSM Minecraft Bedrock",
-      "name": "LGSM-MCB",
+      "name": "minecraftbedrock",
       "note": "LinuxGSM MCB",
       "description": "MCB Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -276,7 +276,7 @@
     {
       "type": 1,
       "title": "LGSM Rust",
-      "name": "LGSM-RUST",
+      "name": "rust",
       "note": "LinuxGSM Rust",
       "description": "Rust Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
@@ -310,7 +310,7 @@
     {
       "type": 1,
       "title": "LGSM Satisfactory",
-      "name": "lgsm-sf",
+      "name": "satisfactory",
       "note": "LinuxGSM Satisfactory",
       "description": "Satisfactory Dedicated server based on LinuxGSM Docker",
       "categories": ["Game Server Containers"],
