@@ -8,4 +8,4 @@ LinuxGSM Site: https://linuxgsm.com/
 
 LinuxGSM Dockerhub: https://hub.docker.com/r/gameservermanagers/gameserver
 
-Enjoy!!
+Enjoy!
